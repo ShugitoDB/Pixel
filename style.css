@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+#pixel-grid {
+    width: 1000px;
+    height: 1000px;
+    border: 1px solid #000;
+    display: grid;
+    grid-template-columns: repeat(1000, 1fr);
+    grid-template-rows: repeat(1000, 1fr);
+}
+
+.pixel {
+    width: 1px;
+    height: 1px;
+    background-color: #fff;
+    border: 1px solid #eee;
+}
+
